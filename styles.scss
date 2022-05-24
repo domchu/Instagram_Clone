@@ -59,3 +59,34 @@ body {
     }
   }
 }
+.edit-column {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+  align-items: center;
+  background-color: $bg-color_1;
+  // align-items: center;
+  .btn {
+    background-color: $bg-color_1;
+    height: 30px;
+    width: 270px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 3px;
+    // position: absolute;
+  }
+  .btn2 {
+    // border: 1px solid;
+    border-radius: 3px;
+    background-color: $bg-color_1;
+    height: 25px;
+    cursor: pointer;
+    width: 50px;
+    font-size: 15px;
+    align-items: center;
+    // text-align: center;
+    // text-align: center;
+  }
+}
