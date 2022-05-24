@@ -1,7 +1,50 @@
+$bg-color_1: lightgrey;
+$bg-color_2: skyblue;
+$primary_1: black;
+$primary_2: lightgrey;
+$primary_3: #ccc;
+
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+body {
+  background-color: $bg-color_1;
+}
+.profile-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+
+  .down {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}
+.icon-container {
+  display: flex;
+
+  .icon {
+    margin: 7px;
+    font-weight: 300;
+  }
+  .plus {
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .bars {
+    font-size: 25px;
+  }
+}
+
+.header{
+    display: flex;
+
+    .pro-img{
+        
+    }
 }
