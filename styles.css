@@ -109,4 +109,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+
+.story p {
+  margin-top: 5px;
+}
 /*# sourceMappingURL=styles.css.map */
