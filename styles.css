@@ -16,6 +16,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -23,6 +25,7 @@ body {
 .profile-container .down {
   margin-top: 5px;
   font-size: 10px;
+  cursor: pointer;
 }
 
 .icon-container {
@@ -40,16 +43,20 @@ body {
   border: 1px solid;
   padding: 3px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .icon-container .bars {
   font-size: 25px;
+  cursor: pointer;
 }
 
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 20px;
@@ -77,6 +84,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -122,5 +131,42 @@ body {
 
 .story p {
   margin-top: 5px;
+}
+
+.story-profile {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.story-profile .list-user {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.post-img {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
 }
 /*# sourceMappingURL=styles.css.map */
