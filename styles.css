@@ -184,6 +184,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 7;
   background-color: #000;
   color: #fff;
 }
@@ -196,5 +197,43 @@ body {
 
 .menu .menu-icon {
   font-size: 30px;
+}
+
+.create-menu {
+  background-color: #000;
+  margin-top: 20px;
+}
+
+.create-menu .close {
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 24px;
+}
+
+.create-menu .create {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0 0 16px;
+  color: #fff;
+}
+
+.create-menu .create a {
+  margin: 0 18px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
 }
 /*# sourceMappingURL=styles.css.map */

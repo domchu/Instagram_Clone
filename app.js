@@ -24,3 +24,16 @@ const allContent = profileImage.map((p) => {
   </div>`;
 });
 document.querySelector(".show").innerHTML = allContent.join("");
+// end of the json
+
+let bars = document.querySelector(".bars");
+let close = document.querySelector(".close");
+let createMenu = document.querySelector(".create-menu");
+
+bars.addEventListener("click", () => {
+    createMenu.style.display ="block"
+})
+
+close.addEventListener("click", () => {
+  createMenu.style.display = "none";
+});
