@@ -38,3 +38,4 @@ bars.addEventListener("click", () => {
 close.addEventListener("click", () => {
   createMenu.style.display = "none";
 });
+// end of the toggle part
