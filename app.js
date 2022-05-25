@@ -31,8 +31,9 @@ let close = document.querySelector(".close");
 let createMenu = document.querySelector(".create-menu");
 
 bars.addEventListener("click", () => {
-    createMenu.style.display ="block"
-})
+  createMenu.style.display = "block";
+  createMenu.style.height = "400px";
+});
 
 close.addEventListener("click", () => {
   createMenu.style.display = "none";
